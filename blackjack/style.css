@@ -1,0 +1,58 @@
+.contenedor {
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    background: rgb(164, 199, 240);
+    display: flex;
+    flex-wrap: wrap;
+
+    
+}
+
+.contenedor div {
+    border-radius: 10%;
+}
+
+.carta1 {
+    width: 200px;
+    height: 300px;
+    background: red;
+    margin: 20px;  
+}
+
+.carta2 {
+    width: 200px;
+    height: 300px;
+    background: red;
+    margin: 20px;
+}
+
+.carta3 {
+    width: 200px;
+    height: 300px;
+    background: red;
+    margin: 20px;
+}
+
+.carta4 {
+    width: 200px;
+    height: 300px;
+    background: red;
+    margin: 20px;
+}
+
+img {
+    border-radius: 10%;
+    width: 200px;
+    height: 300px;
+}
+
+button {
+    font-family: sans-serif;
+    width: 150px;
+    height: 80px;
+    background: rgb(211, 108, 108);
+    border-radius: 10%;
+    font-weight: 800;
+    
+}
