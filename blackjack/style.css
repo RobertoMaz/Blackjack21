@@ -1,10 +1,12 @@
 .contenedor {
-    width: 50%;
-    height: 50%;
+    width: 100%;
+    height: 200%;
     margin: auto;
-    background: rgb(164, 199, 240);
+    background: rgb(244, 249, 250);
     display: flex;
     flex-wrap: wrap;
+    align-content: center;
+    
 
     
 }
@@ -13,46 +15,127 @@
     border-radius: 10%;
 }
 
+.divdinero {
+    font-weight: 800;
+    display: flex;
+    flex-wrap: wrap;
+    display: inline;
+    font-size: 30px;
+}
+
+b {
+    margin-left: 20%;
+    font-size: 50px;
+}
+
+
+
+.titulojugador{
+    position: relative;
+    width: 100%;
+    
+}
+
 .carta1 {
     width: 200px;
     height: 300px;
-    background: red;
-    margin: 20px;  
+    margin: 10px;
 }
 
 .carta2 {
     width: 200px;
     height: 300px;
-    background: red;
-    margin: 20px;
+    margin: 10px;
+
 }
 
 .carta3 {
     width: 200px;
     height: 300px;
-    background: red;
-    margin: 20px;
+    margin: 10px;
 }
 
 .carta4 {
     width: 200px;
     height: 300px;
-    background: red;
-    margin: 20px;
+    margin: 10px;
+}
+
+.carta5 {
+    width: 200px;
+    height: 300px;
+    margin: 10px;
 }
 
 img {
+    position: relative;
     border-radius: 10%;
     width: 200px;
     height: 300px;
+    border: solid rgb(162, 201, 228);
+}
+
+.divbutton {
+    
+    width: 100%;
+    height: 100%;
 }
 
 button {
+    bottom: 0px;
+    position: relative;
     font-family: sans-serif;
-    width: 150px;
-    height: 80px;
-    background: rgb(211, 108, 108);
+    width: 115px;
+    height: 50px;
+    background: rgb(162, 201, 228);
     border-radius: 10%;
-    font-weight: 800;
-    
+    border: none;
+    font-weight: 700;
+    margin: 5px;
+}
+
+button:hover{
+
+    background: rgb(134, 135, 223);
+}
+
+
+
+
+
+.btnpedir{
+    margin-left: 10px;
+}
+
+.cartacrupier {
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.cartacrupier1{
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+}
+
+.cartacrupier2{
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+}
+.cartacrupier3{
+    width: 200px;
+    height: 300px;
+    margin: 10px; 
+}
+.cartacrupier4{
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+}
+.cartacrupier5{
+    width: 200px;
+    height: 300px;
+    margin: 10px;
 }
