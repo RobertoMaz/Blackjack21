@@ -6,34 +6,21 @@
     display: flex;
     flex-wrap: wrap;
     align-content: center;
-    
-
-    
 }
 
 .contenedor div {
     border-radius: 10%;
 }
 
-.divdinero {
-    font-weight: 800;
-    display: flex;
-    flex-wrap: wrap;
-    display: inline;
-    font-size: 30px;
-}
-
 b {
+    padding-top: 5px;
     margin-left: 20%;
-    font-size: 50px;
+    font-size: 40px;
 }
-
-
 
 .titulojugador{
     position: relative;
-    width: 100%;
-    
+    width: 100%; 
 }
 
 .carta1 {
@@ -46,7 +33,6 @@ b {
     width: 200px;
     height: 300px;
     margin: 10px;
-
 }
 
 .carta3 {
@@ -76,7 +62,6 @@ img {
 }
 
 .divbutton {
-    
     width: 100%;
     height: 100%;
 }
@@ -95,13 +80,8 @@ button {
 }
 
 button:hover{
-
     background: rgb(134, 135, 223);
 }
-
-
-
-
 
 .btnpedir{
     margin-left: 10px;
@@ -110,7 +90,6 @@ button:hover{
 .cartacrupier {
     display: flex;
     flex-wrap: wrap;
-   
 }
 
 .cartacrupier1{
@@ -124,18 +103,41 @@ button:hover{
     height: 300px;
     margin: 10px;
 }
+
 .cartacrupier3{
     width: 200px;
     height: 300px;
     margin: 10px; 
 }
+
 .cartacrupier4{
     width: 200px;
     height: 300px;
     margin: 10px;
 }
+
 .cartacrupier5{
     width: 200px;
     height: 300px;
     margin: 10px;
+}
+
+.dineroapuesta{
+    display: flex;
+    width: 100%;
+    font-size: 25px;
+}
+
+.divapuesta{
+   margin-top: 20px; 
+   margin-left: 10px;
+}
+
+#dinero {
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.resultadomensaje{
+    font-size: 20px;
 }
