@@ -1,5 +1,13 @@
+* {
+    box-sizing: border-box ;
+}
+
+body {
+    margin: 0px;
+}
 .contenedor {
-    width: 100%;
+    padding-left: 10px;
+    width: 50%;
     height: 200%;
     margin: auto;
     background: rgb(244, 249, 250);
@@ -24,40 +32,37 @@ b {
 }
 
 .carta1 {
-    width: 200px;
-    height: 300px;
+    width: 110px;
     margin: 10px;
 }
 
 .carta2 {
-    width: 200px;
-    height: 300px;
+    width: 110px;
     margin: 10px;
 }
 
 .carta3 {
-    width: 200px;
-    height: 300px;
+    width: 110px;
     margin: 10px;
 }
 
 .carta4 {
-    width: 200px;
-    height: 300px;
+    width: 110px;
     margin: 10px;
 }
 
 .carta5 {
-    width: 200px;
-    height: 300px;
+    width: 11s0px;
     margin: 10px;
 }
 
 img {
     position: relative;
     border-radius: 10%;
-    width: 200px;
-    height: 300px;
+    width: 100%;
+    height: 160px;
+    /*width: 200px;
+    height: 300px;*/
     border: solid rgb(162, 201, 228);
 }
 
@@ -93,32 +98,27 @@ button:hover{
 }
 
 .cartacrupier1{
-    width: 200px;
-    height: 300px;
+    width: 110px;
     margin: 10px;
 }
 
 .cartacrupier2{
-    width: 200px;
-    height: 300px;
+    width: 110px;
     margin: 10px;
 }
 
 .cartacrupier3{
-    width: 200px;
-    height: 300px;
+    width: 110px;
     margin: 10px; 
 }
 
 .cartacrupier4{
-    width: 200px;
-    height: 300px;
+    width: 110px;
     margin: 10px;
 }
 
 .cartacrupier5{
-    width: 200px;
-    height: 300px;
+    width: 110px;
     margin: 10px;
 }
 
