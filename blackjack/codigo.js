@@ -489,3 +489,4 @@ pedir.addEventListener("click", darCarta3);
 
 
 
+ 
